@@ -1,6 +1,6 @@
 # Crud posts page using postgres,nodeJs,ExpressJS
 
-![](./assets/page.png)
+![](./assets/page.jpg)
 
 ## Getting Started
 
