@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Crud operations!</h1>
+
+    <h2>Create a Post</h2>
+    <form id="create-form">
+        <input type="text" id="create-title" placeholder="title" required>
+        <textarea id="create-content" placeholder="Enter the post content"></textarea>
+        <button type="submit">Create</button>
+    </form>
+    <div class="section"></div>
+    <h2>Load All Posts</h2>
+    
+        <button id="load-posts" class="sbut">Load</button>
+    <ul id="posts-list"></ul>
+    <div class="section"></div>
+
+    <h2>Update a Post</h2>
+    <form id="update-form">
+        <input type="text" required id="update-id" placeholder="Post ID">
+        <input type="text" required id="update-title" placeholder="Post title">
+        <input type="text" required id="update-content" placeholder="Post content">
+        <button type="submit">Update</button>
+    </form>
+    <div class="section"></div>
+
+
+
+    <h2>Delete a Post</h2>
+    <form id="delete-form">
+        <input type="number" id="delete-id" placeholder="Item Id" required>
+        <button type="submit">Delete</button>
+    </form>
+
+    
+
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
